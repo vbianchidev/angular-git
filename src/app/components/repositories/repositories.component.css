@@ -1,0 +1,9 @@
+.card {
+  width: inherit;
+  margin: 3px;
+}
+.overflow{
+  height: inherit;
+  max-height: 30vh;
+  overflow-y: auto;
+}

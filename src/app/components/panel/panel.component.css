@@ -1,0 +1,35 @@
+.panel { 
+  width: 60vw;
+  height: 50vh;
+}
+
+.container {
+  width: inherit;
+  display: flex;
+  flex-direction: row;
+}
+
+.col-full {
+  width: 100%;
+}
+
+.col-half {
+  width: 50%;
+}
+
+@media screen and (max-width: 992px){
+  .panel { 
+    width: 90vw;
+    height: 70vh;
+  }
+
+  .col-half {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+}

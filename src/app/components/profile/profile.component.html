@@ -1,0 +1,15 @@
+<mat-card class="card">
+  
+  <mat-card-header class="header">
+    <div mat-card-avatar class="header-image" matBadge="{{ this.user.followers }}" style="background-image: url('{{ this.user.avatar_url }}');">
+    </div>
+    <mat-card-title> {{ this.user.name }} </mat-card-title>
+    <mat-card-subtitle> {{ this.user.login }} </mat-card-subtitle>
+  </mat-card-header>
+
+  <mat-card-content>
+    
+    <p>{{ this.user.bio }}</p>
+  </mat-card-content>
+
+</mat-card>

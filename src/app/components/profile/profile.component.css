@@ -1,0 +1,8 @@
+.card {
+  width: inherit;
+  margin: 3px;
+}
+
+.header-image {
+  background-size: cover;
+}

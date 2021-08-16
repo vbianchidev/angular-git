@@ -1,0 +1,17 @@
+<div class="panel">
+
+  <div class="col-full">
+    <serach (newItemEvent)="getUser($event)" ></serach>
+  </div>
+
+  <div class="container" *ngIf="this.wasFound">
+    <div class="col-half">
+      <profile [user]="this.user"></profile>
+    </div>
+
+    <div class="col-half">
+      <repositories [repos]="this.repos"></repositories>
+    </div>
+  </div>
+  
+</div>

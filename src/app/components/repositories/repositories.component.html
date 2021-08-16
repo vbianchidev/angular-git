@@ -1,0 +1,12 @@
+<mat-card class="card">
+  <div mat-card-title>Repositórios</div>
+
+  <mat-list class="overflow">
+    <mat-list-item *ngFor="let repo of repos">
+      <mat-icon mat-list-icon>folder</mat-icon>
+      <div mat-line>{{repo.name}}</div>
+      <div mat-line> {{repo.updated_at | date}} </div>
+    </mat-list-item>
+  </mat-list>
+
+</mat-card>
